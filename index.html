@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto escolha de plano</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Escolha um plano</legend>
+
+        <div class="radio-wrapper">
+          <div>
+            <input type="radio" name="plan" id="plan1" value="plan1" />
+            <label for="plan1">Padrão</label>
+          </div>
+          <p>
+            5 TB de espaco para uso individual ou para uso de times com
+            ferramentas de colaboracao.
+          </p>
+        </div>
+
+        <div class="radio-wrapper">
+          <div>
+            <input type="radio" name="plan" id="plan2" value="plan2" checked />
+            <label for="plan2">Premium</label>
+          </div>
+          <p>
+            Tanto espaço quanto sua equipe precisa, com recursos sofisticados de
+            administração, auditoria, segurança e integração.
+          </p>
+        </div>
+
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="terms" id="terms" checked />
+          <label for="terms"
+            >Concordo com os <a href="#">Contratos e Termos.</a> Saiba mais sobre
+            como usamos e protegemos seus dados em nossa <a href="#">Politica de Privacidade.</a>
+           </a
+            ></label
+          >
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="mailing" id="mailing" />
+          <label for="mailing"
+            >gostaria de receber atualizações por e-mail.
+          </label>
+        </div>
+
+        <button type="submit">Comece seu teste gratuito</button>
+        <small>Teste grátis sem cartão</small>
+      </fieldset>
+    </form>
+  </body>
+</html>
